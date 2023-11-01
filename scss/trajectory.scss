@@ -1,0 +1,137 @@
+// REQUIRED DEPENDENCIES - DO NOT CHANGE
+
+@import "dependencies";
+
+//-------------------------------------------
+
+// THEME STYLING
+
+// Base
+@import "nucleus/theme/base";
+
+// Fonts
+@import "trajectory/styles/fonts";
+
+// Core
+@import "trajectory/styles/core";
+
+// Hyperlinks
+@import "trajectory/styles/hyperlinks";
+
+// Typography
+@import "trajectory/styles/typography";
+
+// Utilities
+@import "trajectory/styles/utilities";
+
+// Variations
+@import "trajectory/styles/variations";
+
+// Buttons
+@import "trajectory/styles/buttons";
+
+// Tables
+@import "trajectory/styles/tables";
+
+// Forms
+@import "trajectory/styles/forms";
+
+// Dropdown Animations
+@import "trajectory/styles/dropdownanimations";
+
+// Demo Styling
+@import "trajectory/styles/trajectory-style";
+
+//-------------------------------------------
+
+// SECTIONS STYLING
+
+// PageSurround
+@import "trajectory/sections/pagesurround";
+
+// Header
+@import "trajectory/sections/header";
+
+// Navigation
+@import "trajectory/sections/navigation";
+
+// Main Nav
+@import "trajectory/sections/mainnav";
+
+// Intro
+@import "trajectory/sections/intro";
+
+// Features
+@import "trajectory/sections/features";
+
+// Utility
+@import "trajectory/sections/utility";
+
+// Above
+@import "trajectory/sections/above";
+
+// Testimonials
+@import "trajectory/sections/testimonials";
+
+// Expanded
+@import "trajectory/sections/expanded";
+
+// Main
+@import "trajectory/sections/main";
+
+// Aside
+@import "trajectory/sections/aside";
+
+// Sidebar
+@import "trajectory/sections/sidebar";
+
+// Footer
+@import "trajectory/sections/footer";
+
+// Off Canvas
+@import "trajectory/sections/offcanvas";
+
+//-------------------------------------------
+
+// LAYOUTS STYLING
+
+// Error
+@import "trajectory/layouts/error";
+
+// Offline
+@import "trajectory/layouts/offline";
+
+//-------------------------------------------
+
+// PARTICLES STYLING
+
+// Logo
+@import "trajectory/particles/logo";
+
+// Social
+@import "trajectory/particles/social";
+
+// Content Array
+@import "trajectory/particles/contentarray";
+
+// Content Cubes
+@import "trajectory/particles/contentcubes";
+
+// Content Tabs
+@import "trajectory/particles/contenttabs";
+
+// Owl Carousel
+@import "trajectory/particles/owlcarousel";
+
+// Horizontal Menu
+@import "trajectory/particles/horizontalmenu";
+
+// To Top
+@import "trajectory/particles/totop";
+
+//-------------------------------------------
+
+// BREAKPOINTS
+@import "nucleus/theme/breakpoints/base";
+
+//-------------------------------------------
