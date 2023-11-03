@@ -1,7 +1,7 @@
 doctype: html
 attribs:
   id: ""
-  class: "gantry g-trajectory-style"
+  class: "gantry trajectory-style"
   extra: {}
 layout:
   sections: "0"

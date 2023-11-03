@@ -1,12 +1,12 @@
 details:
   name: Trajectory
-  version: "5.5.17"
+  version: "1.0.0"
   icon: paper-plane
   date: "October 30, 2023"
   author:
     name: MostlyWhat Systems
-    email: "support@rockettheme.com"
-    link: "http://www.rockettheme.com"
+    email: "admin@mostlywhat.com"
+    link: "http://www.mostlywhat.com"
 
   documentation:
     link: "http://docs.gantry.org/gantry5"
@@ -36,28 +36,51 @@ configuration:
     class: '\Gantry\Framework\Theme'
 
   fonts:
-    Raleway:
-      900italic: "gantry-theme://fonts/raleway/raleway-blackitalic/raleway-blackitalic-webfont"
-      900: "gantry-theme://fonts/raleway/raleway-black/raleway-black-webfont"
-      700italic: "gantry-theme://fonts/raleway/raleway-bold/raleway-bolditalic-webfont"
-      700: "gantry-theme://fonts/raleway/raleway-bold/raleway-bold-webfont"
-      600italic: "gantry-theme://fonts/raleway/raleway-semibolditalic/raleway-semibolditalic-webfont"
-      600: "gantry-theme://fonts/raleway/raleway-semibold/raleway-semibold-webfont"
-      500italic: "gantry-theme://fonts/raleway/raleway-mediumitalic/raleway-mediumitalic-webfont"
-      500: "gantry-theme://fonts/raleway/raleway-medium/raleway-medium-webfont"
-      400italic: "gantry-theme://fonts/raleway/raleway-italic/raleway-italic-webfont"
-      400: "gantry-theme://fonts/raleway/raleway-regular/raleway-regular-webfont"
-      200italic: "gantry-theme://fonts/raleway/raleway-lightitalic/raleway-lightitalic-webfont"
-      200: "gantry-theme://fonts/raleway/raleway-light/raleway-light-webfont"
-    Lato:
-      900italic: "gantry-theme://fonts/lato/lato-blackitalic/lato-blackitalic-webfont"
-      900: "gantry-theme://fonts/lato/lato-black/lato-black-webfont"
-      700italic: "gantry-theme://fonts/lato/lato-bold/lato-bolditalic-webfont"
-      700: "gantry-theme://fonts/lato/lato-bold/lato-bold-webfont"
-      400italic: "gantry-theme://fonts/lato/lato-italic/lato-italic-webfont"
-      400: "gantry-theme://fonts/lato/lato-regular/lato-regular-webfont"
-      200italic: "gantry-theme://fonts/lato/lato-lightitalic/lato-lightitalic-webfont"
-      200: "gantry-theme://fonts/lato/lato-light/lato-light-webfont"
+    DM Sans:
+      100italic: "gantry-theme://fonts/dm-sans/webfonts/dm-sans-latin-100-italic"
+      100: "gantry-theme://fonts/dm-sans/webfonts/dm-sans-latin-100-normal"
+      200italic: "gantry-theme://fonts/dm-sans/webfonts/dm-sans-latin-200-italic"
+      200: "gantry-theme://fonts/dm-sans/webfonts/dm-sans-latin-200-normal"
+      300italic: "gantry-theme://fonts/dm-sans/webfonts/dm-sans-latin-300-italic"
+      300: "gantry-theme://fonts/dm-sans/webfonts/dm-sans-latin-300-normal"
+      400italic: "gantry-theme://fonts/dm-sans/webfonts/dm-sans-latin-400-italic"
+      400: "gantry-theme://fonts/dm-sans/webfonts/dm-sans-latin-400-normal"
+      500italic: "gantry-theme://fonts/dm-sans/webfonts/dm-sans-latin-500-italic"
+      500: "gantry-theme://fonts/dm-sans/webfonts/dm-sans-latin-500-normal"
+      600italic: "gantry-theme://fonts/dm-sans/webfonts/dm-sans-latin-600-italic"
+      600: "gantry-theme://fonts/dm-sans/webfonts/dm-sans-latin-600-normal"
+      700italic: "gantry-theme://fonts/dm-sans/webfonts/dm-sans-latin-700-italic"
+      700: "gantry-theme://fonts/dm-sans/webfonts/dm-sans-latin-700-normal"
+      800italic: "gantry-theme://fonts/dm-sans/webfonts/dm-sans-latin-800-italic"
+      800: "gantry-theme://fonts/dm-sans/webfonts/dm-sans-latin-800-normal"
+      900italic: "gantry-theme://fonts/dm-sans/webfonts/dm-sans-latin-900-italic"
+      900: "gantry-theme://fonts/dm-sans/webfonts/dm-sans-latin-900-normal"
+    DM Mono:
+      300italic: "gantry-theme://fonts/dm-mono/webfonts/dm-mono-latin-300-italic"
+      300: "gantry-theme://fonts/dm-mono/webfonts/dm-mono-latin-300-normal"
+      400italic: "gantry-theme://fonts/dm-mono/webfonts/dm-mono-latin-400-italic"
+      400: "gantry-theme://fonts/dm-mono/webfonts/dm-mono-latin-400-normal"
+      500italic: "gantry-theme://fonts/dm-mono/webfonts/dm-mono-latin-500-italic"
+      500: "gantry-theme://fonts/dm-mono/webfonts/dm-mono-latin-500-normal"
+    Metropolis:
+      100italic: "gantry-theme://fonts/metropolis/webfonts/metropolis-latin-100-italic"
+      100: "gantry-theme://fonts/metropolis/webfonts/metropolis-latin-100-normal"
+      200italic: "gantry-theme://fonts/metropolis/webfonts/metropolis-latin-200-italic"
+      200: "gantry-theme://fonts/metropolis/webfonts/metropolis-latin-200-normal"
+      300italic: "gantry-theme://fonts/metropolis/webfonts/metropolis-latin-300-italic"
+      300: "gantry-theme://fonts/metropolis/webfonts/metropolis-latin-300-normal"
+      400italic: "gantry-theme://fonts/metropolis/webfonts/metropolis-latin-400-italic"
+      400: "gantry-theme://fonts/metropolis/webfonts/metropolis-latin-400-normal"
+      500italic: "gantry-theme://fonts/metropolis/webfonts/metropolis-latin-500-italic"
+      500: "gantry-theme://fonts/metropolis/webfonts/metropolis-latin-500-normal"
+      600italic: "gantry-theme://fonts/metropolis/webfonts/metropolis-latin-600-italic"
+      600: "gantry-theme://fonts/metropolis/webfonts/metropolis-latin-600-normal"
+      700italic: "gantry-theme://fonts/metropolis/webfonts/metropolis-latin-700-italic"
+      700: "gantry-theme://fonts/metropolis/webfonts/metropolis-latin-700-normal"
+      800italic: "gantry-theme://fonts/metropolis/webfonts/metropolis-latin-800-italic"
+      800: "gantry-theme://fonts/metropolis/webfonts/metropolis-latin-800-normal"
+      900italic: "gantry-theme://fonts/metropolis/webfonts/metropolis-latin-900-italic"
+      900: "gantry-theme://fonts/metropolis/webfonts/metropolis-latin-900-normal"
 
   css:
     compiler: '\Gantry\Component\Stylesheet\ScssCompiler'
