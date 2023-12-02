@@ -1,15 +1,15 @@
-.g-home-particles {
-  &.g-trajectory-style {
+.trajectory-home-particles {
+  &.trajectory-style {
     // Navigation Section
-    #g-navigation {
+    #trajectory-navigation {
       @include breakpoint(no-mobile) {
         background: transparent;
 
         // Logo Particle
-        .g-logo {
+        .trajectory-logo {
           color: $white;
 
-          &.g-logo-trajectory {
+          &.trajectory-logo-trajectory {
             svg {
               fill: $white;
             }
@@ -18,7 +18,7 @@
       }
 
       // Social Particle
-      .g-social {
+      .trajectory-social {
         a {
           color: fade-out($white, 0.5);
 
@@ -38,7 +38,7 @@
     }
 
     // Header Section
-    #g-header {
+    #trajectory-header {
       text-align: center;
       padding: 0;
 
@@ -69,10 +69,10 @@
     }
 
     // Intro Section
-    #g-intro {
+    #trajectory-intro {
       padding-bottom: 0;
 
-      .g-content {
+      .trajectory-content {
         margin-bottom: 0;
         padding-bottom: 0;
 
@@ -86,7 +86,7 @@
 
     // Features
     .fp-features {
-      .g-block {
+      .trajectory-block {
         @include breakpoint(mobile-only) {
           &:not(:last-child) {
             margin-bottom: 4.5rem;
@@ -164,7 +164,7 @@
 
     // Multi Column Text
     .fp-multi-column-text {
-      .g-block {
+      .trajectory-block {
         p {
           padding: 0 5rem;
           border-left: 1px solid $base-border-color;

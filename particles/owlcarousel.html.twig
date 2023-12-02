@@ -3,27 +3,27 @@
 {% block particle %}
 
     <div class="{{ particle.class|e }}">
-        {% if particle.title %}<h2 class="g-title">{{ particle.title|raw }}</h2>{% endif %}
+        {% if particle.title %}<h2 class="trajectory-title">{{ particle.title|raw }}</h2>{% endif %}
 
-        <div id="g-owlcarousel-{{ id }}" class="g-owlcarousel owl-carousel {% if particle.imageOverlay == 'enable' %}has-color-overlay{% endif %}">
+        <div id="trajectory-owlcarousel-{{ id }}" class="trajectory-owlcarousel owl-carousel {% if particle.imageOverlay == 'enable' %}has-color-overlay{% endif %}">
 
             {% for item in particle.items %}
                 {% if not item.disable %}
-                    <div class="g-owlcarousel-item {{ item.class|e }}">
-                        <div class="g-owlcarousel-item-wrapper">
-                            <div class="g-owlcarousel-item-img">
+                    <div class="trajectory-owlcarousel-item {{ item.class|e }}">
+                        <div class="trajectory-owlcarousel-item-wrapper">
+                            <div class="trajectory-owlcarousel-item-img">
                                 <img src="{{ url(item.image)|e }}" alt="{{ item.title|e }}" />
                             </div>
-                            <div class="g-owlcarousel-item-content-container">
-                                <div class="g-owlcarousel-item-content-wrapper">
-                                    <div class="g-owlcarousel-item-content">
+                            <div class="trajectory-owlcarousel-item-content-container">
+                                <div class="trajectory-owlcarousel-item-content-wrapper">
+                                    <div class="trajectory-owlcarousel-item-content">
                                         {% if item.title %}
-                                            <h1 class="g-owlcarousel-item-title">{{ item.title|raw }}</h1>{% endif %}
+                                            <h1 class="trajectory-owlcarousel-item-title">{{ item.title|raw }}</h1>{% endif %}
                                         {% if item.desc %}
-                                            <h2 class="g-owlcarousel-item-desc">{{ item.desc|raw }}</h2>{% endif %}
+                                            <h2 class="trajectory-owlcarousel-item-desc">{{ item.desc|raw }}</h2>{% endif %}
                                         {% if item.link %}
-                                            <div class="g-owlcarousel-item-link">
-                                                <a target="_self" class="g-owlcarousel-item-button button {{ item.buttonclass|e }}" href="{{ item.link|e }}">
+                                            <div class="trajectory-owlcarousel-item-link">
+                                                <a target="_self" class="trajectory-owlcarousel-item-button button {{ item.buttonclass|e }}" href="{{ item.link|e }}">
                                                     {{ item.linktext|raw }}
                                                 </a>
                                             </div>
@@ -46,7 +46,7 @@
     <script src="{{ url('gantry-theme://js/owl.carousel.min.js') }}"></script>
     <script type="text/javascript">
         jQuery(document).ready(function () {
-            jQuery('#g-owlcarousel-{{ id }}').owlCarousel({
+            jQuery('#trajectory-owlcarousel-{{ id }}').owlCarousel({
                 items: 1,
                 rtl: {% if gantry.page.direction == 'rtl' %}true{% else %}false{% endif %},
                 loop: true,

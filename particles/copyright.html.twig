@@ -4,7 +4,7 @@
 {% set end_date = particle.date.end|trim in ['now', ''] ? 'now'|date('Y') : particle.date.end|e %}
 
 {% block particle %}
-<div class="g-copyright {{ particle.css.class }}">
+<div class="trajectory-copyright {{ particle.css.class }}">
     &copy;
     {% if particle.link is not empty %}<a target="{{ particle.target|default('_blank')|e }}" href="{{ particle.link|e }}" title="{{ particle.owner|e }}">{% endif %}
         {{ particle.owner|e }}

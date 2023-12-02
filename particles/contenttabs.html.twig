@@ -3,17 +3,17 @@
 {% block particle %}
 
     <div class="{{ particle.class|e }}">
-        {% if particle.title %}<h2 class="g-title">{{ particle.title|raw }}</h2>{% endif %}
+        {% if particle.title %}<h2 class="trajectory-title">{{ particle.title|raw }}</h2>{% endif %}
 
-        <div class="g-contenttabs">
-            <div id="g-contenttabs-{{ id }}" class="g-contenttabs-container">
-                <ul class="g-contenttabs-tab-wrapper-container">
+        <div class="trajectory-contenttabs">
+            <div id="trajectory-contenttabs-{{ id }}" class="trajectory-contenttabs-container">
+                <ul class="trajectory-contenttabs-tab-wrapper-container">
 
                     {% for item in particle.items %}
-                        <li class="g-contenttabs-tab-wrapper">
-                            <span class="g-contenttabs-tab-wrapper-head">
-                                <a class="g-contenttabs-tab" href="#g-contenttabs-item-{{ id }}-{{ loop.index }}">
-                                    <span class="g-contenttabs-tab-title">{{ item.title|raw }}</span>
+                        <li class="trajectory-contenttabs-tab-wrapper">
+                            <span class="trajectory-contenttabs-tab-wrapper-head">
+                                <a class="trajectory-contenttabs-tab" href="#trajectory-contenttabs-item-{{ id }}-{{ loop.index }}">
+                                    <span class="trajectory-contenttabs-tab-title">{{ item.title|raw }}</span>
                                 </a>
                             </span>
                         </li>
@@ -23,12 +23,12 @@
 
                 <div class="clearfix"></div>
 
-                <ul class="g-contenttabs-content-wrapper-container">
+                <ul class="trajectory-contenttabs-content-wrapper-container">
 
                     {% for item in particle.items %}
-                        <li class="g-contenttabs-tab-wrapper">
-                            <div class="g-contenttabs-tab-wrapper-body">
-                                <div id="g-contenttabs-item-{{ id }}-{{ loop.index }}" class="g-contenttabs-content">
+                        <li class="trajectory-contenttabs-tab-wrapper">
+                            <div class="trajectory-contenttabs-tab-wrapper-body">
+                                <div id="trajectory-contenttabs-item-{{ id }}-{{ loop.index }}" class="trajectory-contenttabs-content">
                                     {{ item.content|raw }}
                                 </div>
                             </div>
@@ -51,7 +51,7 @@
 {% block javascript_footer %}
     <script type="text/javascript">
         jQuery(document).ready(function () {
-            jQuery('#g-contenttabs-{{ id }}').tabs({
+            jQuery('#trajectory-contenttabs-{{ id }}').tabs({
                 show: {
                     {% if particle.animation == 'up' or particle.animation == 'down' or particle.animation == 'left' or particle.animation == 'right' %}
                     effect: 'slide',

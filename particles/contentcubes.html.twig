@@ -2,15 +2,15 @@
 
 {% block particle %}
 
-<div class="g-contentcubes {{ particle.css.class }}">
-    {% if particle.title %}<h2 class="g-title">{{ particle.title|raw }}</h2>{% endif %}
+<div class="trajectory-contentcubes {{ particle.css.class }}">
+    {% if particle.title %}<h2 class="trajectory-title">{{ particle.title|raw }}</h2>{% endif %}
 
     {% if particle.items %}
         <div class="cube-items-wrapper">
 
             {% for item in particle.items %}
-                <div class="item image-position-{{ item.imageposition }} cube-row g-grid">
-                    <div class="g-block size-50">
+                <div class="item image-position-{{ item.imageposition }} cube-row trajectory-grid">
+                    <div class="trajectory-block size-50">
                         {% if item.image %}
                             <div class="cube-image-wrapper">
                                 <img src="{{ url(item.image)|e }}" alt="{{ item.title|e }}" class="cube-image" />
@@ -18,7 +18,7 @@
                         {% endif %}
                     </div>
 
-                    <div class="g-block size-50">
+                    <div class="trajectory-block size-50">
                         <div class="cube-content-wrapper">
                             {% if item.label %}
                                 <div class="item-label">{{ item.label|e }}</div>

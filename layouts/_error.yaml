@@ -1,81 +1,73 @@
 version: 2
 preset:
-  image: 'gantry-admin://images/layouts/default.png'
+  image: "gantry-admin://images/layouts/default.png"
   name: _error
   timestamp: 1457453164
 layout:
   /navigation/:
-    -
-      - 'logo-9608 15'
-      - 'menu-6409 65'
-      - 'social-3171 20'
+    - - "logo-9608 15"
+      - "menu-6409 65"
+      - "social-3171 20"
   /header/:
-    -
-      - custom-8642
-  /intro/: {  }
-  /features/: {  }
-  /utility/: {  }
-  /above/: {  }
-  /testimonials/: {  }
-  /expanded/: {  }
+    - - custom-8642
+  /intro/: {}
+  /features/: {}
+  /utility/: {}
+  /above/: {}
+  /testimonials/: {}
+  /expanded/: {}
   /container-main/:
-    -
-      -
-        'mainbar 75':
-          -
-            - system-content-1587
-      -
-        'sidebar 25': {  }
+    - - "mainbar 75":
+          - - system-content-1587
+      - "sidebar 25": {}
   /footer/:
-    -
-      - 'logo-9571 10'
-      - 'copyright-1736 30'
-      - 'horizontalmenu-9034 45'
-      - 'totop-8670 15'
+    - - "logo-9571 10"
+      - "copyright-1736 30"
+      - "horizontalmenu-9034 45"
+      - "totop-8670 15"
   /offcanvas/:
-    -
-      - mobile-menu-5697
+    - - mobile-menu-5697
 structure:
   navigation:
     type: section
     attributes:
-      boxed: ''
+      boxed: ""
   header:
     type: section
     subtype: header
     attributes:
-      boxed: ''
-      class: ''
+      boxed: ""
+      class: ""
   intro:
     type: section
     attributes:
-      boxed: ''
+      boxed: ""
   features:
     type: section
     attributes:
-      boxed: ''
+      boxed: ""
   utility:
     type: section
     attributes:
-      boxed: ''
-      class: ''
+      boxed: ""
+      class: ""
   above:
     type: section
     attributes:
-      boxed: ''
+      boxed: ""
   testimonials:
     type: section
     attributes:
-      boxed: ''
+      boxed: ""
   expanded:
     type: section
     attributes:
-      boxed: ''
+      boxed: ""
   mainbar:
     type: section
     subtype: main
     attributes:
-      class: ''
+      class: ""
     block:
       variations: center
   sidebar:
@@ -83,44 +75,41 @@ structure:
     subtype: aside
   container-main:
     attributes:
-      boxed: ''
+      boxed: ""
   footer:
     type: section
     subtype: footer
     attributes:
-      boxed: ''
+      boxed: ""
   offcanvas:
     attributes:
-      boxed: ''
+      boxed: ""
 content:
   logo-9608:
-    title: 'Logo / Image'
+    title: "Logo / Image"
   social-3171:
     block:
-      class: g-social-header
+      class: trajectory-social-header
   custom-8642:
-    title: 'Custom HTML'
+    title: "Custom HTML"
     attributes:
-      html: "<h2 class=\"g-title\">We are sorry!</h2>\n<p>Gantry 5 provides a custom error page for you to configure with either positions, particles or a combination of both, as well as styling.</p>"
+      html: "<h2 class=\"trajectory-title\">We are sorry!</h2>\n<p>Gantry 5 provides a custom error page for you to configure with either positions, particles or a combination of both, as well as styling.</p>"
   logo-9571:
-    title: 'Logo / Image'
+    title: "Logo / Image"
     attributes:
-      image: 'gantry-media://logo/logo-footer.svg'
+      image: "gantry-media://logo/logo-footer.svg"
   horizontalmenu-9034:
-    title: 'Horizontal Menu'
+    title: "Horizontal Menu"
     attributes:
       items:
-        -
-          text: Gantry
-          link: 'http://gantry.org'
+        - text: Gantry
+          link: "http://gantry.org"
           name: Gantry
-        -
-          text: Documentation
-          link: 'http://docs.gantry.org'
+        - text: Documentation
+          link: "http://docs.gantry.org"
           name: Documentation
-        -
-          text: Download
-          link: 'http://gantry.org/downloads'
+        - text: Download
+          link: "http://gantry.org/downloads"
           name: Download
   totop-8670:
-    title: 'To Top'
+    title: "To Top"

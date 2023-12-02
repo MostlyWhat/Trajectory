@@ -1,4 +1,4 @@
-.g-logo {
+.trajectory-logo {
   font-family: get-font-family($font-family-title);
   font-weight: $font-weight-ultrabold;
   font-size: $core-font-size + 0.35;
@@ -10,7 +10,7 @@
     display: block;
   }
 
-  &.g-logo-trajectory {
+  &.trajectory-logo-trajectory {
     img,
     svg {
       max-height: 50px;
