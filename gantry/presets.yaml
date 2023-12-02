@@ -15,8 +15,8 @@ preset1:
       regular: "#4db2b3"
       hover: "#424753"
     font:
-      family-default: "DM Sans, Arial, sans-serif"
-      family-title: "DM Sans, Arial, sans-serif"
+      family-default: "Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif"
+      family-title: "Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif"
     navigation:
       background: "#312f38"
       text-color: "#ffffff"

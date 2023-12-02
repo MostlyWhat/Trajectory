@@ -7,8 +7,12 @@ form:
     family-default:
       type: input.fonts
       label: Body Font
-      default: "Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif"
+      default: "Metropolis, DM Sans, Arial, sans-serif"
     family-title:
       type: input.fonts
       label: Title Font
-      default: "Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif"
+      default: "Metropolis, DM Sans, Arial, sans-serif"
+    family-mono:
+      type: input.fonts
+      label: Monospace Font
+      default: "DM Mono, Arial, sans-serif"
